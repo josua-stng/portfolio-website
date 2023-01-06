@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    background-color: #121212 !important;
+    color: white;
+}
+
+.nav_header> li{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.nav_header >li:last-child{
+    margin-right: 50px;
+}
+
+.nav_header>li :hover{
+
+}
+
+.banner img{
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 55%;
+  }
+
