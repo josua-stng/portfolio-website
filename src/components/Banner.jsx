@@ -1,0 +1,80 @@
+import React, { useEffect, useState } from "react";
+
+import HeaderImage from "../assets/image/header-img.png";
+
+const Banner = () => {
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [text, setText] = useState("");
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [, setIndex] = useState(1);
+  const toRotate = ["Web Developer", "Web Designer", "Team Leader"];
+  const period = 2000;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => {
+      clearInterval(ticker);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [text]);
+
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText = isDeleting
+      ? fullText.substring(0, text.length - 1)
+      : fullText.substring(0, text.length + 1);
+
+    setText(updatedText);
+
+    if (isDeleting) {
+      setDelta((prevDelta) => prevDelta / 2);
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setIndex((prevIndex) => prevIndex - 1);
+      setDelta(period);
+    } else if (isDeleting && updatedText === "") {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setIndex(1);
+      setDelta(500);
+    } else {
+      setIndex((prevIndex) => prevIndex + 1);
+    }
+  };
+
+  return (
+    <div className="banner mt-32 flex justify-center" >
+      <div className="tagline p-[100px] ">
+        <h2>Welcome to my porfolio</h2>
+        <h1>
+          {`Hi! I'm Josua`}{" "}
+          <span
+            className="txt-rotate"
+            dataperiod="1000"
+            data-rotate='[ "Web Developer", "Web Designer", "Team Leder" ]'
+          >
+            <span className="wrap">{text}</span>
+          </span>
+        </h1>
+        <p>
+          My fullname is Josua Sitanggang. I'm from Indonesia and now i'm 20
+          years old. I study in Mikroskil University.I started my journey in
+          programming as a front-end developer and was able to create
+          interactive and engaging websites{" "}
+        </p>
+      </div>
+      <div>
+        <img className="w-full" src={HeaderImage} alt="" />
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
