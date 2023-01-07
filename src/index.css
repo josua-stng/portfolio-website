@@ -8,6 +8,10 @@ body{
     color: white;
 }
 
+.navbar{
+    background-color: rgb(23, 23, 23);
+}
+
 .nav_header> li{
     margin-left: 50px;
     cursor: pointer;
@@ -27,13 +31,13 @@ body{
 
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-2px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(100px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-2px);
     }
 }
 .banner p {
@@ -41,6 +45,23 @@ body{
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    width: 55%;
+    width: 70%;
   }
 
+
+.get-bg {
+    background-image: url('./assets/image/banner-bg.png');
+    background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.tagline_header{
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.tagline_desc{
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
