@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar =() =>{
     return(
-        <div className="flex text-white justify-between p-5 border-2 
+        <div className="navbar flex text-white justify-between p-5  sticky top-0  
          ">
           <div>
                 <h2 className="ml-12">Josua</h2>
