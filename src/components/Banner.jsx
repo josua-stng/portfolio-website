@@ -50,10 +50,12 @@ const Banner = () => {
   };
 
   return (
-    <div className="banner mt-32 flex justify-center" >
-      <div className="tagline p-[100px] ">
-        <h2>Welcome to my porfolio</h2>
-        <h1>
+    <div className="banner mt-32 flex pt-5 ">
+      <div className="tagline p-[100px]  border-white">
+        <h2 className="tagline_header w-[250px] p-2 text-center text-xl mb-5">
+          Welcome to my Porfolio
+        </h2>
+        <h1 className="tagline_desc text-[50px] mb-5">
           {`Hi! I'm Josua`}{" "}
           <span
             className="txt-rotate"
@@ -64,14 +66,16 @@ const Banner = () => {
           </span>
         </h1>
         <p>
-          My fullname is Josua Sitanggang. I'm from Indonesia and now i'm 20
-          years old. I study in Mikroskil University.I started my journey in
-          programming as a front-end developer and was able to create
-          interactive and engaging websites{" "}
+          My full name is Josua Sitanggang. I'm from Indonesia and now I'm 20
+          years old year. I study at Microskil University. I started my journey
+          in programming as a front-end developer and able to create interactive
+          and interesting website, and I continue to learn because in my opinion
+          the knowledge I get is still lacking in understanding the concept of
+          website development{" "}
         </p>
       </div>
-      <div>
-        <img className="w-full" src={HeaderImage} alt="" />
+      <div className="image">
+        <img className="max-w-[400px]" src={HeaderImage} alt="" />
       </div>
     </div>
   );
