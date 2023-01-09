@@ -2,66 +2,123 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-    background-color: #121212 !important;
-    color: white;
+body {
+  background-color: #121212 !important;
+  color: white;
 }
 
-.navbar{
-    background-color: rgb(23, 23, 23);
+/* nav styling */
+.navbar {
+  background-color: rgb(23, 23, 23);
 }
 
-.nav_header> li{
-    margin-left: 50px;
-    cursor: pointer;
+.nav_header > li {
+  margin-left: 50px;
+  cursor: pointer;
 }
 
-.nav_header >li:last-child{
-    margin-right: 50px;
+.nav_header > li:last-child {
+  margin-right: 50px;
 }
 
-.nav_header>li :hover{
-
+/* banner styling */
+.banner {
+  position: relative;
 }
 
-.banner img{
-    animation: updown 3s linear infinite;
+.banner img {
+  animation: updown 3s linear infinite;
 }
 
 @keyframes updown {
-    0% {
-        transform: translateY(-2px);
-    }
-    50% {
-        transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(-2px);
-    }
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
 }
 .banner p {
-    color: #B8B8B8;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    width: 70%;
-  }
-
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 70%;
+}
 
 .get-bg {
-    background-image: url('./assets/image/banner-bg.png');
-    background-position: top center;
+  background-image: url("./assets/image/banner-bg.png");
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-.tagline_header{
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+.tagline_header {
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
-.tagline_desc{
-    font-weight: 700;
-    letter-spacing: 0.8px;
+.tagline_desc {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+/* skill styling */
+
+.skills {
+  font-size: 15px;
+  background: #232323;
+  border-radius: 50px;
+  margin-top: -80px;
+  width: 70%;
+  /* margin: auto; */
+}
+
+.skills img {
+  width: 40px;
+}
+.skills_container {
+  margin-bottom: 20px;
+}
+.skilss_content {
+  padding: 10px;
+}
+
+.skilss_content p {
+  padding-left: 10px;
+}
+.skills_container > .skilss_content {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(163, 162, 162);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+/* media query */
+@media only screen and (max-width: 1000px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img {
+    margin: auto;
+  }
+  .banner .tagline_paragraph {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner .tagline_paragraph {
+    /* width: fit-content; */
+    border: 2px solid white;
+  }
 }
