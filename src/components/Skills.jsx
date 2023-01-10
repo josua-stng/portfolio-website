@@ -4,8 +4,8 @@ const Skills = () => {
   return (
     <div className="skills text-white mx-auto text-center mb-48 w">
       <div className="p-5">
-        <h1 className="mb-10 mt-5">About Skills</h1>
-        <div className="skills_container grid grid-cols-4 pb-7">
+        <h1 className="skills_header mb-10 mt-5 text-[45px]">About Skills</h1>
+        <div className="skills_container grid pb-7 laptop:grid-cols-3 tablet:grid-cols-2 pc:grid-cols-4">
           <div className="skilss_content">
             <img
               src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
@@ -61,6 +61,13 @@ const Skills = () => {
               alt=""
             />
             <p>Github</p>
+          </div>
+          <div className="skilss_content">
+            <img
+              src="https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
+              alt=""
+            />
+            <p>Node Js</p>
           </div>
         </div>
       </div>
