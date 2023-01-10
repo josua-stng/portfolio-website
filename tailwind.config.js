@@ -5,8 +5,10 @@ module.exports = {
   ],
   theme: {
     screens:{
-      'tablet':'940px',
-      'laptop':'1000px'
+      'tablet':'720px',
+      'laptop':'1000px',
+      'pc':'1200px',
+      'breakpoints_skills':'820px',
     },
     extend: {},
   },
