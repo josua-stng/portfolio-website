@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "./components/Banner";
+import GetInTouch from "./components/GetInTouch";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Banner/>
       </div>
       <Skills/>
+      <Projects/>
+      <GetInTouch/>
     </div>
   );
 }
