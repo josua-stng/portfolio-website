@@ -80,6 +80,10 @@ body {
   /* margin: auto; */
 }
 
+.skills_header {
+  font-weight: 700;
+}
+
 .skills img {
   width: 40px;
 }
@@ -97,9 +101,28 @@ body {
   display: flex;
   align-items: center;
   border: 2px solid rgb(163, 162, 162);
-  margin: 10px;
+  margin: 20px;
   border-radius: 10px;
 }
+
+/* Projects */
+
+.project {
+  padding: 60px;
+  gap: 50px;
+}
+
+.project_header {
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
+.project > .project_container {
+  border: 2px solid rgb(132, 131, 131);
+  padding: 20px;
+  border-radius: 8px;
+  /* width: 300px; */
+}
+
+/* get in touch */
 
 
 /* media query */
