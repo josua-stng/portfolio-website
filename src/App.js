@@ -1,20 +1,22 @@
 import React from "react";
-import Banner from "./components/Banner";
-import GetInTouch from "./components/GetInTouch";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import GetAllProject from "./routes/GetAllProject";
+
 
 function App() {
   return (
     <div className="App">
-      <div className="get-bg pb-48 mb-10">
-      <Navbar/>
-      <Banner/>
-      </div>
-      <Skills/>
-      <Projects/>
-      <GetInTouch/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project" element={<GetAllProject/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+
+      </Routes>
+
     </div>
   );
 }
