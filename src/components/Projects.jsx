@@ -2,6 +2,7 @@ import React from "react";
 import UnsplashImage from '../assets/image/unsplash-clone.jpeg'
 import NextMarketImage from '../assets/image/next_market.jpeg'
 import WeatherApp from '../assets/image/weather_app.jpeg'
+import { Link } from "react-router-dom";
 
 const Projects = () =>{
     return (
@@ -23,7 +24,7 @@ const Projects = () =>{
                 <img src={WeatherApp} alt="" className="image_project rounded-lg"/>
             </div>
         </div>
-        <p className="pointer text-sm">View more of my projects {">"} </p>
+        <Link to='/project'>View more of my project {'>'}</Link>
         </div>
         </div>
     )

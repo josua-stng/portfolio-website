@@ -67,7 +67,7 @@ const Banner = () => {
         </h1>
         <p className="tagline_paragraph">
           My full name is Josua Sitanggang. I'm from Indonesia and now I'm 20
-          years old year. I study at Microskil University. I started my journey
+          years old year. I study at Mikroskil University. I started my journey
           in programming as a front-end developer and able to create interactive
           and interesting website, and I continue to learn because in my opinion
           the knowledge I get is still lacking in understanding the concept of
