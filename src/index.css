@@ -10,11 +10,19 @@ body {
 /* nav styling */
 .navbar {
   background-color: rgb(23, 23, 23);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav_header > li {
   margin-left: 50px;
   cursor: pointer;
+  color: rgb(192, 191, 191) ;
+}
+
+.nav_header> li :hover{
+  color: #fff ;
 }
 
 .nav_header > li:last-child {
@@ -123,7 +131,13 @@ body {
 }
 
 /* get in touch */
+.get_touch{
+  background-color: rgb(126, 125, 125);
+}
 
+.getallproject{
+  
+}
 
 /* media query */
 @media only screen and (max-width: 1000px) {
