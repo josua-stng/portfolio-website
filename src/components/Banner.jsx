@@ -66,7 +66,7 @@ const Banner = () => {
           </span>
         </h1>
         <p className="tagline_paragraph">
-          My full name is Josua Sitanggang. I'm from Indonesia and now I'm 20
+          Hi my name is Josua. I'm from Indonesia and now I'm 20
           years old year. I study at Mikroskil University. I started my journey
           in programming as a front-end developer and able to create interactive
           and interesting website, and I continue to learn because in my opinion
