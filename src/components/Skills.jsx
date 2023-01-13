@@ -2,8 +2,8 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="skills text-white mx-auto text-center mb-48 w">
-      <div className="p-5">
+    <div className="skills text-white mx-auto text-center mb-48 ">
+      <div className="p-5  w-full">
         <h1 className="skills_header mb-10 mt-5 text-[45px]">About Skills</h1>
         <div className="skills_container grid pb-7 laptop:grid-cols-3 tablet:grid-cols-2 pc:grid-cols-4">
           <div className="skilss_content">
@@ -64,7 +64,7 @@ const Skills = () => {
           </div>
           <div className="skilss_content">
             <img
-              src="https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
+              src="https://www.soat.fr/assets/images/formation/NodeJS.png"
               alt=""
             />
             <p>Node Js</p>
