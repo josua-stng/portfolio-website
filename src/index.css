@@ -30,9 +30,6 @@ body {
 }
 
 /* banner styling */
-.banner {
-  position: relative;
-}
 
 .banner img {
   animation: updown 3s linear infinite;
@@ -164,7 +161,35 @@ body {
   line-height: 28px;
 }
 
-
+/* contact */
+.contact_container > a{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;  
+  background-color: gray;
+}
+.whattsap_icon{
+  background-color: #128c7e;
+}
+.contact_header{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.facebook_icon{
+ background-color: #1877f2;
+}
+.instagram_icon{
+ background-color: #c13584;
+}
+.linkedln_icon{
+ background-color: #0077b5;
+}
+.github_icon{
+  background-color: #333;
+}
+.google_icon{
+  background-color: #ea4335;
+}
 /* media query */
 @media only screen and (max-width: 1000px) {
   .banner {
@@ -181,8 +206,8 @@ body {
 
 @media only screen and (max-width: 500px) {
   .banner .tagline_paragraph {
-    /* width: fit-content; */
-    border: 2px solid white;
+      /* width: fit-content; */
+    /* border: 2px solid white; */
   }
 }
 
