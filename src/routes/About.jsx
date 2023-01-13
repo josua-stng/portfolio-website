@@ -1,35 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
     <div>
-      <div
-        className="navbar flex text-white justify-between p-5 
-         "
-      >
-        <div>
-          <h2 className="ml-12">Josua</h2>
-        </div>
-        <div>
-          <ul className="nav_header flex">
-            <li>
-              <Link to="/">Home</Link>{" "}
-            </li>
-            <li>
-              <Link to="/project">Projects</Link>{" "}
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="about_container mt-[80px] pb-10">
-        <h2 className="text-2xl p-5  text-center">About Me</h2>
+      <Navbar />
+      <div className="about_container mt-[100px] pb-10 mb-7">
+        <h2 className="text-[45px] font-bold text-center pt-5">About Me</h2>
         <div className="about_me flex justify-center items-start mt-10">
           <div className="about_me_desc w-[450px]  mr-10">
             <p className="">Hello! My full name is josua sitanggang and I like to explore new
@@ -71,24 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mb-7 m-7">
-        <p className="pr-1">Created with </p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6 text-red-400"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-          />
-        </svg>{" "}
-        <p className="pl-1">by Josua Sitanggang</p>
-      </div>
+     <Footer/>
     </div>
   );
 };
