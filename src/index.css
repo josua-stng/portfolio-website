@@ -18,11 +18,11 @@ body {
 .nav_header > li {
   margin-left: 50px;
   cursor: pointer;
-  color: rgb(192, 191, 191) ;
+  color: rgb(192, 191, 191);
 }
 
-.nav_header> li :hover{
-  color: #fff ;
+.nav_header > li :hover {
+  color: #fff;
 }
 
 .nav_header > li:last-child {
@@ -51,9 +51,11 @@ body {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 70%;
+  width: 50%;
 }
 
+.banner .tagline_header {
+}
 .get-bg {
   background-image: url("./assets/image/banner-bg.png");
   background-position: top center;
@@ -74,27 +76,7 @@ body {
   letter-spacing: 0.8px;
 }
 
-.button_slide{
-  color: #FFF;
-  border: 2px solid rgb(181, 179, 179);
-  border-radius: 0px;
-  padding: 18px 36px;
-  display: inline-block;
-  font-size: 14px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 #D80286;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
-}
-
-.slide_right:hover {
-  box-shadow: inset 400px 0 0 0 #D80286;
-}
-
 /* skill styling */
-
 .skills {
   font-size: 15px;
   background: #232323;
@@ -147,54 +129,53 @@ body {
 }
 
 /* get in touch */
-.get_touch{
+.get_touch {
   background-color: rgb(126, 125, 125);
 }
 
-
 /* about me */
-.about_container{
+.about_container {
   background-color: rgb(33, 33, 33);
 }
-.about_me_desc{
+.about_me_desc {
   font-size: 17px;
   line-height: 28px;
 }
 
 /* contact */
-.contact_container > a{
+.contact_container > a {
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;  
-  background-color: gray;
+  padding: 20px;
+  background-color: #595959;
 }
-.whattsap_icon{
+.whattsap_icon {
   background-color: #128c7e;
 }
-.contact_header{
+.contact_header {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.facebook_icon{
- background-color: #1877f2;
+.facebook_icon {
+  background-color: #1877f2;
 }
-.instagram_icon{
- background-color: #c13584;
+.instagram_icon {
+  background-color: #c13584;
 }
-.linkedln_icon{
- background-color: #0077b5;
+.linkedln_icon {
+  background-color: #0077b5;
 }
-.github_icon{
+.github_icon {
   background-color: #333;
 }
-.google_icon{
+.google_icon {
   background-color: #ea4335;
 }
 /* media query */
 @media only screen and (max-width: 1000px) {
   .banner {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
   }
   .banner img {
     margin: auto;
@@ -204,23 +185,25 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .banner .tagline_paragraph {
-      /* width: fit-content; */
-    /* border: 2px solid white; */
-  }
-}
-
-@media only screen and (max-width:830px){
-  .about_me{
+@media only screen and (max-width: 830px) {
+  .about_me {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
   }
-  .about_me_desc{
+  .about_me_desc {
     width: 80%;
     margin-top: 30px;
     margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .tagline_header {
+    width: 160px;
+  }
+  .get_touch {
+    width: max-content;
   }
 }
