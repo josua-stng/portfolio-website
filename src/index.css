@@ -222,6 +222,9 @@ body {
   .tagline_header {
     width: 160px;
   }
+  .banner img{
+    width: 170px;
+  }
   .get_touch {
     width: max-content;
   }
