@@ -70,9 +70,7 @@ const Banner = () => {
           Hi my name is Josua. I'm from Indonesia and now I'm 20
           years old year. I study at Mikroskil University. I started my journey
           in programming as a front-end developer and able to create interactive
-          and interesting website, and I continue to learn because in my opinion
-          the knowledge I get is still lacking in understanding the concept of
-          website development{" "}
+          and interesting website.
         </p>
       </div>
       <div className="image">
