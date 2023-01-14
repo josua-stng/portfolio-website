@@ -219,6 +219,10 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  .skills_header, .project_header h2, .about_container h2,.contact h1{
+    font-size: 21px;
+  }
+
   .tagline_header {
     width: 160px;
   }
