@@ -13,7 +13,7 @@ const GetAllProject = () => {
       <Navbar />
       <div className="project_header mt-[120px] mb-10">
         <div className="p-7 text-center">
-          <h2 className="text-[45px] font-bold mb-5">Projects</h2>
+          <h2 className="text-[45px] font-bold mt-1 mb-9">Projects</h2>
           <p className="text-lg">
             I show you to all the big and small websites I have done so farI
             show you to all the big and small websites I have done so far
