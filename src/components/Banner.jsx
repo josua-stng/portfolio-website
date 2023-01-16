@@ -52,7 +52,7 @@ const Banner = () => {
 
   return (
     <div className="banner relative mt-32 flex pt-5 ">
-      <div className="tagline p-[100px]  border-white">
+      <div className="tagline p-[50px]  border-white">
         <h2 className="tagline_header w-[250px] p-2 text-center text-xl mb-5">
           Welcome to my Porfolio
         </h2>
