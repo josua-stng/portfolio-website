@@ -218,13 +218,21 @@ body {
   }
 }
 
-@media only screen and (max-width: 450px) {
+
+@media only screen and (max-width: 470px) {
   .skills_header, .project_header h2, .about_container h2,.contact h1{
     font-size: 21px;
   }
-
+  .project_container > h3{
+    font-size: 20px;
+  }
   .tagline_header {
     width: 160px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .skills{
+    width: 100%;
   }
   .banner img{
     width: 170px;
