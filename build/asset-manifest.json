@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a425667.css",
+    "main.js": "/static/js/main.c250d2e2.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/header-img.png": "/static/media/header-img.7f81b1563effcb367603.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/idmb_movie.jpeg": "/static/media/idmb_movie.95ff6e6adc58ddb86745.jpeg",
+    "static/media/next_market.jpeg": "/static/media/next_market.8a1161cd990b8d315fe3.jpeg",
+    "static/media/unsplash-clone.jpeg": "/static/media/unsplash-clone.60e4ee01eafe4397dfd9.jpeg",
+    "static/media/weather_app.jpeg": "/static/media/weather_app.b3780a082658c3bf0dd8.jpeg",
+    "index.html": "/index.html",
+    "main.9a425667.css.map": "/static/css/main.9a425667.css.map",
+    "main.c250d2e2.js.map": "/static/js/main.c250d2e2.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a425667.css",
+    "static/js/main.c250d2e2.js"
+  ]
+}
