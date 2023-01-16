@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const GetInTouch = () => {
   return (
@@ -8,9 +9,11 @@ const GetInTouch = () => {
         Want to know me more? contact me on social media and i will always be
         open to be around you
       </p>
+      <Link to='/contact'>
       <button className=" button_slide slide_right p-3  w-[250px] rounded-lg">
         Let 's Connect
       </button>
+      </Link>
     </div>
   );
 };
