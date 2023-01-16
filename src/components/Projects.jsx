@@ -8,7 +8,7 @@ const Projects = () =>{
     return (
         <div className="project_header mb-[220px]">
         <div className="p-7 text-center">
-        <h2 className="text-[45px] font-bold mb-5">Projects</h2>
+        <h2 className="lg:text-[45px]   md:text-[30px] text-[25px] font-bold mb-5 ">Projects</h2>
         <p className="text-lg">I show you to all the big and small websites I have done so farI show you to all the big and small websites I have done so far</p>
         <div className="project grid breakpoints_skills:grid-cols-2 laptop:grid-cols-3">
             <div className="project_container ">
