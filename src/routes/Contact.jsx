@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <div className="contact">
       <Navbar />
-      <div className="mt-[100px] text-center">
-        <h1 className="mb-10 text-[45px] font-bold">Contact </h1>
-        <div className="contact_container grid gap-10 p-20 laptop:grid-cols-2 pc:grid-cols-4 mb-32">
+      <div className="mt-[120px] text-center">
+        <h1 className="text-[45px] font-bold">Contact </h1>
+        <div className="contact_container grid gap-10 p-20 laptop:grid-cols-2 pc:grid-cols-4 mb-[160px]">
           <a
             href={"https://www.facebook.com/profile.php?id=100009735270078"}
             target="_blank"
