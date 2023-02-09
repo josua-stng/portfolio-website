@@ -4,6 +4,7 @@ import UnsplashImage from "../assets/image/unsplash-clone.jpeg";
 import NextMarketImage from "../assets/image/next_market.jpeg";
 import WeatherApp from "../assets/image/weather_app.jpeg";
 import IdmbMovie from "../assets/image/idmb_movie.jpeg";
+import RecipeApp from '../assets/image/recipe_app.jpeg';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -74,6 +75,21 @@ const GetAllProject = () => {
                 <h3 className="text-2xl mb-5">Idmb Movie</h3>
                 <img
                   src={IdmbMovie}
+                  alt=""
+                  className="image_project rounded-lg"
+                />
+              </div>
+            </a>
+            <a
+              href="https://recipe-apps-clone.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="project_container"
+            >
+              <div>
+                <h3 className="text-2xl mb-5">Recipe App</h3>
+                <img
+                  src={RecipeApp}
                   alt=""
                   className="image_project rounded-lg"
                 />
