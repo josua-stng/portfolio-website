@@ -69,6 +69,13 @@ const Skills = () => {
             />
             <p>Node Js</p>
           </div>
+          <div className="skilss_content">
+            <img
+              src="https://bryntum.com/wp-content/uploads/2019/03/ts.png"
+              alt=""
+            />
+            <p>Typescript </p>
+          </div>
         </div>
       </div>
     </div>
