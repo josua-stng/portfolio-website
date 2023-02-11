@@ -24,7 +24,7 @@ const Projects = () =>{
                 <img src={WeatherApp} alt="" className="image_project rounded-lg"/>
             </div>
         </div>
-        <Link to='/project'>View more of my project {'>'}</Link>
+        <Link to='/project' className="hover:text-slate-300">View more of my project {'>'}</Link>
         </div>
         </div>
     )
