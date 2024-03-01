@@ -19,26 +19,26 @@
     },
     {
         "id": 4,
+        "projectName": "Movies",
+        "image": "https://firebasestorage.googleapis.com/v0/b/fir-storage-70290.appspot.com/o/WhatsApp%20Image%202024-03-01%20at%2010.14.50%20PM.jpeg?alt=media&token=f00ee76c-a866-42bb-ac0f-1ff582d85f6b",
+        "url": "https://movies-whizz.vercel.app/"
+    },
+    {
+        "id": 5,
         "projectName": "Recipe App",
         "image": "https://firebasestorage.googleapis.com/v0/b/fir-storage-70290.appspot.com/o/recipe-image.jpg?alt=media&token=2235f0e9-142c-4ff3-9b50-a048f4e23463&_gl=1*pgmfzw*_ga*ODgzMDQ0NTE2LjE2OTc2Nzc0MzA.*_ga_CW55HF8NVT*MTY5NzgwNTgxNC4yLjEuMTY5NzgwNjc1Ni41Ny4wLjA.",
         "url": "https://recipe-apps-one.vercel.app/"
     },
     {
-        "id": 5,
+        "id": 6,
         "projectName": "Unsplash Clone",
         "image": "https://firebasestorage.googleapis.com/v0/b/fir-storage-70290.appspot.com/o/unsplash-clone.jpeg?alt=media&token=2e3c4a0f-d08a-4ccd-9a91-c891edbe9cf6",
         "url": "https://unsplash-clone-apps.netlify.app/"
     },
     {
-        "id": 6,
+        "id": 7,
         "projectName": "Next Market",
         "image": "https://firebasestorage.googleapis.com/v0/b/fir-storage-70290.appspot.com/o/next_market.jpeg?alt=media&token=e9965114-3119-454c-ba78-d781efa2ee05",
         "url": "https://nextmarket.netlify.app/index.html"
-    },
-    {
-        "id": 7,
-        "projectName": "Idmb Movie",
-        "image": "https://firebasestorage.googleapis.com/v0/b/fir-storage-70290.appspot.com/o/idmb_movie.jpeg?alt=media&token=259c5872-5b34-4bab-abf9-32e4b9193996",
-        "url": "https://sharing-session-react-001.netlify.app/"
     }
 ]
